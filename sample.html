@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="style.css" rel="stylesheet" type="text/css" media="all">
+	<div class="header">
+		<a href="#button">Generate Data</a>
+		<a href="#countries_name">List of Countries</a>
+		<a href="#makes_name">List of Makes</a>
+		<a href="#models_name">List of Models</a>
+		<a href="#sellers_name">List of Sellers</a>
+		<a href="#all_sales_name">List of All Sales</a>
+	</div>
+</head>
+<body>
+<br>
+<h1>Vandelay Industries Sales Index</h1>
+<br>
+<div id="error">
+	<p></p>
+</div>
+<br>
+
+<div id="button">
+	<p>To collect data for all countries, click the button below.</p>
+	<button type="button" id="get">
+		Collect Data for All Countries
+	</button>
+</div>
+<br>
+<p>To limit your search by one or more countries, use the search bar below.</p>
+<div class="country_search">
+	Countries to look at: <input type="text" id="countries_box"><br><br>
+	<button type="button" id="search_button">
+		Search
+	</button>
+</div>
+<br>
+
+<h2 id="countries_name">List of Countries</h2>
+<div id="collected_countries">
+	<table id="countries_table" style="width:100%">
+		<thead><tr>
+			<th>Country</th>
+			<th>Total Number of Sales</th>
+			<th>Percentage of All Sales</th>
+			<th>Total Country Revenue</th>
+			<th>Percentage of All Revenue</th>
+		</tr></thead>
+		<tbody></tbody> 
+	</table>
+</div>
+<br>
+
+<h2 id="makes_name">List of Makes</h2>
+<div id="collected_makes">
+	<table id="makes_table" style="width:100%">
+		<thead><tr>
+			<th>Make</th>
+			<th>Total Number of Sales</th>
+			<th>Percentage of All Sales</th>
+			<th>Total Make Revenue</th>
+			<th>Percentage of All Revenue</th>
+		</tr></thead>
+		<tbody></tbody> 
+	</table>
+</div>
+<br>
+
+<h2 id="models_name">List of Models</h2>
+<div id="collected_models">
+	<table id="models_table" style="width:100%">
+		<thead><tr>
+			<th>Model</th>
+			<th>Total Number of Sales</th>
+			<th>Percentage of All Sales</th>
+			<th>Total Model Revenue</th>
+			<th>Percentage of All Revenue</th>
+		</tr></thead>
+		<tbody></tbody> 
+	</table>
+</div>
+<br>
+
+<h2 id="sellers_name">List of Sellers</h2>
+<div id="collected_sellers">
+	<table id="sellers_table" style="width:100%">
+		<thead><tr>
+			<th>Seller</th>
+			<th>Total Number of Sales</th>
+			<th>Percentage of All Sales</th>
+			<th>Total Seller Revenue</th>
+			<th>Percentage of All Revenue</th>
+		</tr></thead>
+		<tbody></tbody>
+	</table>
+</div>
+<br>
+
+<h2 id="all_sales_name">List of All Sales</h2>
+<div id="collected_data">
+	<table id="data_table" style="width:100%">
+		<thead><tr>
+			<th>ID</th>
+			<th>Import Country</th>
+			<th>Model</th>
+			<th>Make</th>
+			<th>Sold By</th>
+			<th>Sale Price</th>
+		</tr></thead>
+		<tbody></tbody> 
+	</table>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

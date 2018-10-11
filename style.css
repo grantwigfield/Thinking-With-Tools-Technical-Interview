@@ -1,0 +1,26 @@
+body {
+	background-image:url('https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/276424/580/558/m1/fpnw/wm0/1409.m00.i104.n030.p.c25.194313128-wheel-tire-set-.jpg?1418884443&s=48143e27bf609cdc523786cba9804d9e');
+	background-color:#000000;
+	color: white;
+	text-align: center;
+}
+h1, h2 {
+	font-family: "Arial Black", Gadget, sans-serif;
+}
+a {
+	color: white;
+}
+table, th{
+	border:1px solid white;
+}
+.header {
+	width: 100%;
+	position:fixed;
+	text-align: center;
+	background-color:#000000;
+	margin: 0;
+	padding: 0;
+}
+.country_search {
+	text-decoration: underline;
+}
